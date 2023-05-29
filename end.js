@@ -27,5 +27,5 @@ saveHighScore = (e) => {
     
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign('/index.html');
+    return window.location.href="http://kajal4180.github.io/quizweb/index.html";
 };
